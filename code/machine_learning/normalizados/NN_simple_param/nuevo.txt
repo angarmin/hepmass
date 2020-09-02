@@ -1,0 +1,294 @@
+mass= 500
+train mass   500.0   750.0   1000.0  1250.0  1500.0
+label                                        
+0       14142   14121   13903   13943   14087
+1       14138   13912   13823   13900   14031
+test mass   500.0
+label       
+0      34891
+1      35109
+Fitting 5 folds for each of 50 candidates, totalling 250 fits
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+              beta_2=0.999, early_stopping=False, epsilon=1e-08,
+              hidden_layer_sizes=10, learning_rate='constant',
+              learning_rate_init=0.001, max_fun=15000, max_iter=200,
+              momentum=0.9, n_iter_no_change=10, nesterovs_momentum=True,
+              power_t=0.5, random_state=0, shuffle=True, solver='lbfgs',
+              tol=0.0001, validation_fraction=0.1, verbose=False,
+              warm_start=False)
+accuracy 0.49844285714285713
+sensitibity 0.0
+specifity 1.0
+kappa 0.0
+tn 34891
+fp 0
+fn 35109
+tp 0
+AUC 0.5461664408191701
+(140000, 28)
+(70000, 28)
+mass= 750
+train mass   500.0   750.0   1000.0  1250.0  1500.0
+label                                        
+0       14037   14163   14054   13996   14048
+1       13991   13756   14008   13972   13975
+test mass   750.0
+label       
+0      34841
+1      35159
+Fitting 5 folds for each of 50 candidates, totalling 250 fits
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+              beta_2=0.999, early_stopping=False, epsilon=1e-08,
+              hidden_layer_sizes=10, learning_rate='constant',
+              learning_rate_init=0.001, max_fun=15000, max_iter=200,
+              momentum=0.9, n_iter_no_change=10, nesterovs_momentum=True,
+              power_t=0.5, random_state=0, shuffle=True, solver='lbfgs',
+              tol=0.0001, validation_fraction=0.1, verbose=False,
+              warm_start=False)
+accuracy 0.4977285714285714
+sensitibity 0.0
+specifity 1.0
+kappa 0.0
+tn 34841
+fp 0
+fn 35159
+tp 0
+AUC 0.6462981265819903
+(140000, 28)
+(70000, 28)
+mass= 1000
+train mass   500.0   750.0   1000.0  1250.0  1500.0
+label                                        
+0       14179   13948   14036   14042   13975
+1       13738   14112   14101   13871   13998
+test mass   1000.0
+label        
+0       34977
+1       35023
+Fitting 5 folds for each of 50 candidates, totalling 250 fits
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+              beta_2=0.999, early_stopping=False, epsilon=1e-08,
+              hidden_layer_sizes=10, learning_rate='constant',
+              learning_rate_init=0.001, max_fun=15000, max_iter=200,
+              momentum=0.9, n_iter_no_change=10, nesterovs_momentum=True,
+              power_t=0.5, random_state=0, shuffle=True, solver='lbfgs',
+              tol=0.0001, validation_fraction=0.1, verbose=False,
+              warm_start=False)
+accuracy 0.49967142857142854
+sensitibity 0.0
+specifity 1.0
+kappa 0.0
+tn 34977
+fp 0
+fn 35023
+tp 0
+AUC 0.6902687209405334
+(140000, 28)
+(70000, 28)
+mass= 1250
+train mass   500.0   750.0   1000.0  1250.0  1500.0
+label                                        
+0       14105   14130   13965   13954   14014
+1       14013   13975   14004   14010   13830
+test mass   1250.0
+label        
+0       34998
+1       35002
+Fitting 5 folds for each of 50 candidates, totalling 250 fits
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+              beta_2=0.999, early_stopping=False, epsilon=1e-08,
+              hidden_layer_sizes=10, learning_rate='constant',
+              learning_rate_init=0.001, max_fun=15000, max_iter=200,
+              momentum=0.9, n_iter_no_change=10, nesterovs_momentum=True,
+              power_t=0.5, random_state=0, shuffle=True, solver='lbfgs',
+              tol=0.0001, validation_fraction=0.1, verbose=False,
+              warm_start=False)
+accuracy 0.49997142857142857
+sensitibity 0.0
+specifity 1.0
+kappa 0.0
+tn 34998
+fp 0
+fn 35002
+tp 0
+AUC 0.7086425557833227
+(140000, 28)
+(70000, 28)
+mass= 1500
+train mass   500.0   750.0   1000.0  1250.0  1500.0
+label                                        
+0       13931   14138   13992   14133   13942
+1       13884   13969   13920   14143   13948
+test mass   1500.0
+label        
+0       34972
+1       35028
+Fitting 5 folds for each of 50 candidates, totalling 250 fits
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+              beta_2=0.999, early_stopping=False, epsilon=1e-08,
+              hidden_layer_sizes=10, learning_rate='constant',
+              learning_rate_init=0.001, max_fun=15000, max_iter=200,
+              momentum=0.9, n_iter_no_change=10, nesterovs_momentum=True,
+              power_t=0.5, random_state=0, shuffle=True, solver='lbfgs',
+              tol=0.0001, validation_fraction=0.1, verbose=False,
+              warm_start=False)
+accuracy 0.4996
+sensitibity 0.0
+specifity 1.0
+kappa 0.0
+tn 34972
+fp 0
+fn 35028
+tp 0
+AUC 0.719952677096244
+(140000, 28)
+(70000, 28)
+(140000, 28)
+(70000, 28)
+mass= 500
+train mass   0.0     500.0   750.0   1250.0  1500.0
+label                                        
+0       69965       0       0       0       0
+1           0   17469   17653   17432   17481
+train mass   500.0
+label       
+0      35010
+1      34990
+Fitting 5 folds for each of 50 candidates, totalling 250 fits
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+              beta_2=0.999, early_stopping=False, epsilon=1e-08,
+              hidden_layer_sizes=10, learning_rate='constant',
+              learning_rate_init=0.001, max_fun=15000, max_iter=200,
+              momentum=0.9, n_iter_no_change=10, nesterovs_momentum=True,
+              power_t=0.5, random_state=0, shuffle=True, solver='lbfgs',
+              tol=0.0001, validation_fraction=0.1, verbose=False,
+              warm_start=False)
+accuracy 0.49985714285714283
+sensitibity 1.0
+specifity 0.0
+kappa 0.0
+tn 0
+fp 35010
+fn 0
+tp 34990
+AUC 0.5
+(140000, 28)
+(70000, 28)
+mass= 750
+train mass   0.0     500.0   750.0   1250.0  1500.0
+label                                        
+0       69762       0       0       0       0
+1           0   17483   17530   17683   17542
+train mass   750.0
+label       
+0      34675
+1      35325
+Fitting 5 folds for each of 50 candidates, totalling 250 fits
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+              beta_2=0.999, early_stopping=False, epsilon=1e-08,
+              hidden_layer_sizes=10, learning_rate='constant',
+              learning_rate_init=0.001, max_fun=15000, max_iter=200,
+              momentum=0.9, n_iter_no_change=10, nesterovs_momentum=True,
+              power_t=0.5, random_state=0, shuffle=True, solver='lbfgs',
+              tol=0.0001, validation_fraction=0.1, verbose=False,
+              warm_start=False)
+accuracy 0.5046428571428572
+sensitibity 1.0
+specifity 0.0
+kappa 0.0
+tn 0
+fp 34675
+fn 0
+tp 35325
+AUC 0.5
+(140000, 28)
+(70000, 28)
+mass= 1000
+train mass   0.0     500.0   750.0   1250.0  1500.0
+label                                        
+0       70020       0       0       0       0
+1           0   17495   17681   17294   17510
+train mass   1000.0
+label        
+0       34952
+1       35048
+Fitting 5 folds for each of 50 candidates, totalling 250 fits
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+              beta_2=0.999, early_stopping=False, epsilon=1e-08,
+              hidden_layer_sizes=10, learning_rate='constant',
+              learning_rate_init=0.001, max_fun=15000, max_iter=200,
+              momentum=0.9, n_iter_no_change=10, nesterovs_momentum=True,
+              power_t=0.5, random_state=0, shuffle=True, solver='lbfgs',
+              tol=0.0001, validation_fraction=0.1, verbose=False,
+              warm_start=False)
+accuracy 0.5006857142857143
+sensitibity 1.0
+specifity 0.0
+kappa 0.0
+tn 0
+fp 34952
+fn 0
+tp 35048
+AUC 0.5
+(140000, 28)
+(70000, 28)
+mass= 1250
+train mass   0.0     500.0   750.0   1250.0  1500.0
+label                                        
+0       70081       0       0       0       0
+1           0   17416   17513   17462   17528
+train mass   1250.0
+label        
+0       34947
+1       35053
+Fitting 5 folds for each of 50 candidates, totalling 250 fits
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+              beta_2=0.999, early_stopping=False, epsilon=1e-08,
+              hidden_layer_sizes=10, learning_rate='constant',
+              learning_rate_init=0.001, max_fun=15000, max_iter=200,
+              momentum=0.9, n_iter_no_change=10, nesterovs_momentum=True,
+              power_t=0.5, random_state=0, shuffle=True, solver='lbfgs',
+              tol=0.0001, validation_fraction=0.1, verbose=False,
+              warm_start=False)
+accuracy 0.5007571428571429
+sensitibity 1.0
+specifity 0.0
+kappa 0.0
+tn 0
+fp 34947
+fn 0
+tp 35053
+AUC 0.5
+(140000, 28)
+(70000, 28)
+mass= 1500
+train mass   0.0     500.0   750.0   1250.0  1500.0
+label                                        
+0       70131       0       0       0       0
+1           0   17519   17417   17427   17506
+train mass   1500.0
+label        
+0       34829
+1       35171
+Fitting 5 folds for each of 50 candidates, totalling 250 fits
+MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+              beta_2=0.999, early_stopping=False, epsilon=1e-08,
+              hidden_layer_sizes=10, learning_rate='constant',
+              learning_rate_init=0.001, max_fun=15000, max_iter=200,
+              momentum=0.9, n_iter_no_change=10, nesterovs_momentum=True,
+              power_t=0.5, random_state=0, shuffle=True, solver='lbfgs',
+              tol=0.0001, validation_fraction=0.1, verbose=False,
+              warm_start=False)
+accuracy 0.5024428571428572
+sensitibity 1.0
+specifity 0.0
+kappa 0.0
+tn 0
+fp 34829
+fn 0
+tp 35171
+AUC 0.5
+(140000, 28)
+(70000, 28)
+(140000, 28)
+(70000, 28)

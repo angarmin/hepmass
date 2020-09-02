@@ -1,0 +1,10 @@
+mass= 500
+train mass   0.0    500.0
+label              
+0      50168      0
+1          0  49832
+test mass     0      500
+label              
+0      24949      0
+1          0  25051
+Fitting 5 folds for each of 2 candidates, totalling 10 fits

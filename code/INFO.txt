@@ -1,0 +1,9 @@
+DATA: 
+- normalized datasets: https://archive.ics.uci.edu/ml/datasets/HEPMASS
+- non normalized data: I asked for it to Irvine California University
+
+FOLDERS: 
+
+- parsing: used code to convert originals .csv to .pkl
+- visualizations (distribution, correlations)
+- machine learning algorithms

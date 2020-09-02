@@ -1,0 +1,28 @@
+mass= 500
+train mass   0.0    500.0
+label              
+0      50168      0
+1          0  49832
+test mass     0      500
+label              
+0      24949      0
+1          0  25051
+Fitting 5 folds for each of 16 candidates, totalling 80 fits
+MLPClassifier(activation='tanh', alpha=0.0001, batch_size='auto', beta_1=0.9,
+              beta_2=0.999, early_stopping=False, epsilon=1e-08,
+              hidden_layer_sizes=35, learning_rate='constant',
+              learning_rate_init=0.001, max_fun=15000, max_iter=2000,
+              momentum=0.9, n_iter_no_change=10, nesterovs_momentum=True,
+              power_t=0.5, random_state=0, shuffle=True, solver='lbfgs',
+              tol=0.0001, validation_fraction=0.1, verbose=False,
+              warm_start=False)
+mass= 750
+train mass   0.0    750.0
+label              
+0      49776      0
+1          0  50224
+test mass     0      750
+label              
+0      24826      0
+1          0  25174
+Fitting 5 folds for each of 16 candidates, totalling 80 fits

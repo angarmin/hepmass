@@ -1,0 +1,78 @@
+mass= 500
+Fitting 5 folds for each of 24 candidates, totalling 120 fits
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+                       max_depth=None, max_features='log2', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=350,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+accuracy 0.6901785382767672
+sensitibity 0.7471645516835608
+specifity 0.6331925248699736
+kappa 0.38035707655353435
+<ggplot: (8759801680557)>
+AUC 0.7522538551283424
+mass= 750
+Fitting 5 folds for each of 24 candidates, totalling 120 fits
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=350,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+accuracy 0.8485770320955135
+sensitibity 0.8840639047155495
+specifity 0.8130901594754775
+kappa 0.697154064191027
+<ggplot: (8759752148917)>
+AUC 0.9174949371127563
+mass= 1000
+Fitting 5 folds for each of 24 candidates, totalling 120 fits
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=350,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+accuracy 0.9179929924199052
+sensitibity 0.9332791352737765
+specifity 0.9027068495660339
+kappa 0.8359859848398103
+<ggplot: (8759722570433)>
+AUC 0.9710283397166484
+mass= 1250
+Fitting 5 folds for each of 24 candidates, totalling 120 fits
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+                       max_depth=None, max_features='sqrt', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=350,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+accuracy 0.947773051830425
+sensitibity 0.9573751879205926
+specifity 0.9381709157402573
+kappa 0.8955461036608501
+<ggplot: (8759508231665)>
+AUC 0.9867645743318108
+mass= 1500
+Fitting 5 folds for each of 24 candidates, totalling 120 fits
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=350,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+accuracy 0.9638170019801641
+sensitibity 0.970640424492315
+specifity 0.9569935794680131
+kappa 0.9276340039603281
+<ggplot: (8759599581721)>
+AUC 0.9930720605482083
+(1399000, 27)
+(699942, 27)
+1

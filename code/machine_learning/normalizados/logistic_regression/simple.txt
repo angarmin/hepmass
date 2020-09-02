@@ -1,0 +1,55 @@
+mass= 500
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+LogisticRegression(C=0.1, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='warn', tol=0.0001, verbose=0,
+                   warm_start=False)
+accuracy 0.6170738801628854
+sensitibity 0.6191099476439791
+specifity 0.6150378126817917
+AUC 0.6570161374380237
+mass= 750
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+LogisticRegression(C=1, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='warn', tol=0.0001, verbose=0,
+                   warm_start=False)
+accuracy 0.8311987336307383
+sensitibity 0.8553748740826018
+specifity 0.8070225931788747
+AUC 0.8898900177290289
+mass= 1000
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='warn', tol=0.0001, verbose=0,
+                   warm_start=False)
+accuracy 0.9001857673621034
+sensitibity 0.9144041154615604
+specifity 0.8859674192626464
+AUC 0.9558551453193544
+mass= 1250
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='warn', tol=0.0001, verbose=0,
+                   warm_start=False)
+accuracy 0.9312987934705464
+sensitibity 0.9425124201561391
+specifity 0.9200851667849539
+AUC 0.9782749948244103
+mass= 1500
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+LogisticRegression(C=10, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='warn', tol=0.0001, verbose=0,
+                   warm_start=False)
+accuracy 0.9525175728016066
+sensitibity 0.9632764309281309
+specifity 0.9417587146750824
+AUC 0.988503162300706
