@@ -1,0 +1,4 @@
+This is my final master thesis project. The document is writen in Spanish but I have post the code too. 
+
+The project has mainly consisted in the application of maching learning algorithms to Hepmass dataset. More information about the data and the experiment can be found here: 
+https://archive.ics.uci.edu/ml/datasets/HEPMASS
